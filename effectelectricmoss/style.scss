@@ -1,0 +1,442 @@
+:root {
+  --color1: rgb(0, 231, 255);
+  --color2: rgb(255, 0, 231);
+  --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+  --charizard1: #1a6cf0;
+  --charizard2: #34d5eb;  
+  --charizardfront: url(https://i.imgur.com/ZvPfWYa.jpg);  
+  --pika1: #1a6cf0;
+  --pika2: #34d5eb; 
+  --pikafront: url(https://i.imgur.com/zM1w0Pw.jpg);
+  --eevee1: #FFD800;
+  --eevee2: #BF9F46;
+  --eeveefront: url(https://i.imgur.com/0pZridk.jpg);
+  --mewtwo1: #eb34dc;
+  --mewtwo2: #3480eb;
+  --mewtwofront: url(https://i.imgur.com/2uQy2B0.jpg);
+}
+
+
+
+.card {
+
+  width: 73.5vw;
+  height: 100vw;
+    // width: clamp(200px, 61vh, 18vw);
+    // height: clamp(280px, 85vh, 25.2vw);
+  @media screen and (min-width: 600px) {
+    // width: 61vh;
+    // height: 85vh;
+    // max-width: 500px;
+    // max-height: 700px;
+    width: clamp(12.9vw, 61vh, 18vw);
+    height: clamp(18vw, 85vh, 25.2vw);
+  }
+  
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  overflow: hidden;
+  z-index: 10;
+  touch-action: none;
+  
+  border-radius: 5% / 5%;
+  box-shadow:  
+    -5px -5px 5px -5px var(--color1), 
+    5px 5px 5px -5px var(--color2), 
+    -7px -7px 10px -5px transparent, 
+    7px 7px 10px -5px transparent, 
+    0 0 5px 0px rgba(255,255,255,0),
+    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+  
+  transition: transform 0.5s ease, box-shadow 0.2s ease;
+  will-change: transform, filter;
+  
+  background-color: #040712;
+  background-image: var(--front);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transform-origin: center;
+  
+}
+
+.card:hover {
+  box-shadow: 
+    -20px -20px 30px -25px var(--color1), 
+    20px 20px 30px -25px var(--color2), 
+    -7px -7px 10px -5px var(--color1), 
+    7px 7px 10px -5px var(--color2), 
+    0 0 13px 4px rgba(255,255,255,0.3),
+    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+}
+
+.card.charizard {
+  --color1: var(--charizard1);
+  --color2: var(--charizard2);
+  --front: var(--charizardfront);
+}
+.card.pika {
+  --color1: var(--pika1);
+  --color2: var(--pika2);
+  --front: var(--pikafront);
+}
+.card.mewtwo {
+  --color1: var(--mewtwo1);
+  --color2: var(--mewtwo2);
+  --front: var(--mewtwofront);
+}
+.card.eevee {
+  --color1: #DDCC46;
+  --color2: #ccac6f;
+
+  --front: var(--eeveefront);
+}
+
+.card:before,
+.card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  opacity: .5;
+  mix-blend-mode: color-dodge;
+  transition: all .33s ease;
+}
+
+.card:before {
+  background-position: 50% 50%;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    115deg,
+    transparent 0%,
+    var(--color1) 25%,
+    transparent 47%,
+    transparent 53%,
+    var(--color2) 75%,
+    transparent 100%
+  );
+  opacity: .5;
+  filter: brightness(.5) contrast(1);
+  z-index: 1;
+}
+
+.card:after {
+  opacity: 1;
+  //background-image: url("https://i.gifer.com/1uUv.gif"),     
+   //background-image: url("https://media4.giphy.com/media/jaOXKCxtBPLieRLI0c/giphy.gif"),  // stiped blue
+  //background-image: url("https://assets1.ello.co/uploads/asset/attachment/8529059/ello-optimized-71c0b46d.gif"),  //star sweep
+    background-image: url("https://media2.giphy.com/media/WmiRpz0Kz0nzewi9mm/giphy.gif"),  //nice natural bluging ****
+ //background-image: url("https://media2.giphy.com/media/ehssta24116nk9VWyN/200w.gif?cid=82a1493bvwbnfh5fjmc9m1za1pxhsoug37lpe3ws2kb31b47&rid=200w.gif&ct=g"),  //nice line to blocks ****
+//background-image: url("https://64.media.tumblr.com/fd4d395a0ae970279a9dde96f0d2ffc5/6d1cf51165083359-00/s250x400/6d34bc2a642b7637802346ef5168ad44e07b7285.gifv"),  //Digitized *****
+    //background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"),  //Digitized matrix *****
+      
+      //background-image: url("https://media2.giphy.com/media/fX2oud7WOkCyO6jtyv/giphy.gif?cid=790b76111a7d2045b5db9a4ddea4445be5746d93ac442c73&rid=giphy.gif&ct=g"),  //flame *****
+  
+      //background-image: url("https://media3.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif?cid=790b76116cbddad971624a999bfe68986c8b8c0a34586953&rid=giphy.gif&ct=g"),  //thick space wave *****
+//background-image: url("https://media2.giphy.com/media/42D6A6kwVwTyVLAfI9/giphy.gif?cid=790b7611e34072f291762a9edb107bb48826c847b146c0dd&rid=giphy.gif&ct=g"),  //circle particle burst *****
+//background-image: url("https://media0.giphy.com/media/4a7sWil1NZoRWymHJp/giphy.gif?cid=790b761181f9a2b2b163c7078fe25d4ee79ac1e8e1245879&rid=giphy.gif&ct=g"),  //squares trippy *****
+  
+  
+  
+  //background-image: url("https://i.gifer.com/embedded/download/slt.gif"),  //nice shooting particles firefly ****
+  //background-image: url("https://assets0.ello.co/uploads/asset/attachment/7968322/ello-optimized-f78c51ff.gif"),  //fast sparks
+   //background-image: url("https://c.tenor.com/SUY6rbXlvv0AAAAM/starseeds-galaxy.gif"), 
+  //background-image: url("https://media1.giphy.com/media/3ohhwNqFMnb7wZgNnq/giphy.gif"), 
+  //background-image: url("https://assets.codepen.io/13471/sparkles.gif"), 
+    url(https://assets.codepen.io/13471/holo.png), 
+    //url(https://64.media.tumblr.com/fd4d395a0ae970279a9dde96f0d2ffc5/6d1cf51165083359-00/s250x400/6d34bc2a642b7637802346ef5168ad44e07b7285.gifv), 
+     linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%);
+  background-position: 50% 50%;
+  background-size: 160%;
+  background-blend-mode: overlay;
+  z-index: 2;
+  filter: brightness(1) contrast(1);
+  transition: all .33s ease;
+  mix-blend-mode: color-dodge;
+  opacity: .75;
+}
+
+.card.active:after,
+.card:hover:after {
+  filter: brightness(1) contrast(1);;
+  opacity: 1;
+}
+
+.card.active,
+.card:hover {
+  animation: none;
+  transition: box-shadow 0.1s ease-out;
+}
+
+.card.active:before,
+.card:hover:before {
+  animation: none;
+  background-image: linear-gradient(
+    110deg,
+    transparent 25%,
+    var(--color1) 48%,
+    var(--color2) 52%,
+    transparent 75%
+  );
+  background-position: 50% 50%;
+  background-size: 250% 250%;
+  opacity: .88;
+  filter: brightness(.66) contrast(1.33);
+  transition: none;
+}
+
+.card.active:before,
+.card:hover:before,
+.card.active:after,
+.card:hover:after {
+  animation: none;
+  transition: none;
+}
+
+.card.animated {
+  transition: none;
+  animation: holoCard 12s ease 0s 1;
+  &:before { 
+    transition: none;
+    animation: holoGradient 12s ease 0s 1;
+  }
+  &:after {
+    transition: none;
+    animation: holoSparkle 12s ease 0s 1;
+  }
+}
+
+
+
+
+@keyframes holoSparkle {
+  0%, 100% {
+    opacity: .75; background-position: 50% 50%; filter: brightness(1.2) contrast(1.25);
+  }
+  5%, 8% {
+    opacity: 1; background-position: 40% 40%; filter: brightness(.8) contrast(1.2);
+  }
+  13%, 16% {
+    opacity: .5; background-position: 50% 50%; filter: brightness(1.2) contrast(.8);
+  }
+  35%, 38% {
+    opacity: 1; background-position: 60% 60%; filter: brightness(1) contrast(1);
+  }
+  55% {
+    opacity: .33; background-position: 45% 45%; filter: brightness(1.2) contrast(1.25);
+  }
+}
+
+@keyframes holoGradient {
+  0%, 100% {
+    opacity: 0.5;
+    background-position: 50% 50%;
+    filter: brightness(.5) contrast(1);
+  }
+  5%, 9% {
+    background-position: 100% 100%;
+    opacity: 1;
+    filter: brightness(.75) contrast(1.25);
+  }
+  13%, 17% {
+    background-position: 0% 0%;
+    opacity: .88;
+  }
+  35%, 39% {
+    background-position: 100% 100%;
+    opacity: 1;
+    filter: brightness(.5) contrast(1);
+  }
+  55% {
+    background-position: 0% 0%;
+    opacity: 1;
+    filter: brightness(.75) contrast(1.25);
+  }
+}
+
+@keyframes holoCard {
+  0%, 100% {
+    transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+  }
+  5%, 8% {
+    transform: rotateZ(0deg) rotateX(6deg) rotateY(-20deg);
+  }
+  13%, 16% {
+    transform: rotateZ(0deg) rotateX(-9deg) rotateY(32deg);
+  }
+  35%, 38% {
+    transform: rotateZ(3deg) rotateX(12deg) rotateY(20deg);
+  }
+  55% {
+    transform: rotateZ(-3deg) rotateX(-12deg) rotateY(-27deg);
+  }
+}
+
+
+
+.card.eevee:hover {
+  box-shadow: 
+    0 0 30px -5px white,
+    0 0 10px -2px white,
+    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+}
+.card.eevee:hover:before,
+.card.eevee.active:before {
+  background-image: linear-gradient(
+    115deg,
+    transparent 20%,
+    var(--color1) 48%,
+    var(--color2) 52%,
+    transparent 80%
+  );
+}
+
+
+
+
+.demo .card {
+  background-image: var(--back);
+  font-size: 2vh
+}
+.demo .card > span {
+  position: relative;
+  top: 45%;
+}
+
+.demo .card:nth-of-type(1),
+.demo .card:nth-of-type(2),
+.demo .card:nth-of-type(3) {
+  width: 20vh;
+  height: 27.5vh;
+  box-shadow: inset 0 0 0 1px rgba(white,0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
+  animation: none;
+}
+
+.demo .card:nth-of-type(1),
+.demo .card:nth-of-type(2),
+.demo .card:nth-of-type(3) {
+  &:before, &:after {
+    animation: none;
+    // opacity: 1;
+  } 
+}
+.demo .card:nth-of-type(1) {
+  &:before, &:after { display: none; }
+}
+.demo .card:nth-of-type(2) {
+  background: none;
+  &:before { display: none; }
+}
+.demo .card:nth-of-type(3) {
+  background: none;
+  &:after { display: none; }
+}
+
+.operator {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 6vh;
+}
+
+
+
+
+
+
+html, body {
+  height: 100%;
+  background-color: #000000;
+  padding: 0;
+  z-index: 1;
+  transform: translate3d(0,0,0.1px);
+}
+body {
+  color: white;
+  background-color: #000000;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+}
+h3 {
+  display: block;
+  margin: 10px 0;
+  color: grey;
+}
+h4 {
+  display: block;
+  text-align: left;
+  margin: 80% 0;
+  color: #ffffff;
+  margin-left: 5%;
+  font-size: 4.5vh; 
+}
+h5 {
+  display: block;
+  text-align: left;
+  margin: 60% 0;
+  color: #ffffff;
+  margin-left: 5%;
+font-size: 2.0vh; 
+}
+p {
+  margin-top: 5px;
+  font-weight: 200;
+  color: darkgrey;
+  
+}
+
+
+
+
+
+#app {
+  position: relative;
+}
+
+.demo,
+.cards { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  perspective: 2000px;
+  position: relative;
+  z-index: 1;
+  transform: translate3d(0.1px, 0.1px, 0.1px )
+}
+.demo {
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+
+.cards .card {
+  &:nth-child(2) {
+    &, &:before, &:after {
+      animation-delay: 0.25s;
+    }
+  }
+  &:nth-child(3) {
+    &, &:before, &:after {
+      animation-delay: 0.5s;
+    }
+  }
+  &:nth-child(4) {
+    &, &:before, &:after {
+      animation-delay: 0.75s;
+    }
+  }
+}
