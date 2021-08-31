@@ -96,7 +96,7 @@
 
 .card:after {
   opacity: 1;
-  background-image: url("https://assets1.ello.co/uploads/asset/attachment/8529059/ello-optimized-71c0b46d.gif"), url(https://assets.codepen.io/13471/holo.png), linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%);
+  background-image: url("https://media3.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif"), url(https://assets.codepen.io/13471/holo.png), linear-gradient(125deg, #ff008450 15%, #fca40040 30%, #ffff0030 40%, #00ff8a20 60%, #00cfff40 70%, #cc4cfa50 85%);
   background-position: 50% 50%;
   background-size: 160%;
   background-blend-mode: overlay;
