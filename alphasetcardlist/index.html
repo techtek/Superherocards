@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+
+<style>
+
+body {
+	background-color: #0a0a0a;
+	font: 15px Roboto, Roboto;
+	margin: 0;
+	padding: 0;
+	
+    }
+
+h2 {
+  color: lightgrey;
+  align: center;
+  text-align: center;
+}
+
+h4 {
+  color: grey;
+  text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+	
+	
+}
+
+
+
+
+div.desc {
+  color: grey;
+  
+  
+
+}
+
+div.gallery {
+  width: 75%;
+  align: center;
+
+  
+
+}
+
+div.gallery:hover {
+
+
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+	align: center;
+	filter: grayscale(100%);
+	opacity: 0.5;
+
+
+}
+
+div.gallery img:hover {
+	filter: grayscale(0%);
+	opacity: 1.0;
+	animation: shake 2.0s;
+	animation-iteration-count: infinite;
+	
+
+}
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  align: center;
+  width: 24.99999%;
+      -webkit-filter: drop-shadow(12px 12px 7px rgba(222, 222, 222, 0.1));
+     filter: drop-shadow(12px 12px 7px rgba(222, 222, 222, 0.1));
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+	align: center;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg-video-wrap { 
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 74vh;
+ 
+
+  background: url() no-repeat center center/cover;
+  
+}
+video {
+  transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+  min-width: 100%;
+  margin-top: -30px;
+
+  
+  z-index: 1;
+}
+.overlay {
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 20%);
+  background-size: 6px 6px;
+  z-index: 2;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.img1 {
+opacity: 0.6;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  width: 130%;
+  height: 130%;
+		animation: shake2 80.0s;
+		animation-iteration-count: infinite;
+		background-image: linear-gradient(white, black);
+  
+}
+
+
+.img1a {
+opacity: 0.3;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+    width: 100%;
+  height: 100%; 
+  
+}
+
+
+
+
+.imglogo {
+  opacity: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 50%;  
+  
+  animation: shake 3.0s;
+  
+
+  
+}
+
+
+
+
+notused img:hover {
+
+}
+
+@keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg);}
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-1px, 1px) rotate(0deg); }
+  70% { transform: translate(0px, 0px) rotate(-1deg); }
+  80% { transform: translate(-1px, -0px) rotate(-1deg); }
+  90% { transform: translate(-2px, -0px) rotate(1deg); }
+  100% { transform: translate(0px, 1px) rotate(0deg); }
+}
+
+
+@keyframes shake2 {
+  0% { transform: translate(0px, 0px) rotate(0deg); opacity: 0.8;}
+  10% { transform: translate(-1px, -2px) rotate(-1deg); opacity: 0.8 }
+  20% { transform: translate(-3px, 0px) rotate(1deg); opacity: 0.6}
+  30% { transform: translate(2px, 1px) rotate(0deg); opacity: 0.6}
+  40% { transform: translate(1px, -1px) rotate(1deg); opacity: 0.7}
+  50% { transform: translate(-1px, 2px) rotate(-1deg); opacity: 0.7}
+  60% { transform: translate(1px, 3px) rotate(0deg); opacity: 0.8}
+  70% { transform: translate(0px, 2px) rotate(-1deg); opacity: 0.7}
+  80% { transform: translate(-1px, -1px) rotate(-0deg); opacity: 0.8}
+  90% { transform: translate(-2px, -0px) rotate(1deg); opacity: 0.7;}
+  100% { transform: translate(0px, 1px) rotate(0deg); opacity: 0.8;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+<div class="bg-video-wrap">
+    <video src="https://github.com/techtek/Superherocards/raw/main/zorgtest.mp4" loop muted autoplay>
+    </video>
+    <div class="">
+         
+		 
+		 
+		 
+    </div> 
+ 
+ 
+      
+      <img class="img1" src="https://github.com/techtek/Superherocards/raw/main/11498493926dj8cozqrgd0doubleuwrf5s3%2023%20tihteoeh5o8kekgxhmrwk0marzmrrfrs0yilopuj4isqt8ce66l0y4ejvn3upybeezovtdkm1c2aeayj4h.png" alt="aaaaaa" width="" height=" ">
+     
+
+      
+      
+      
+      
+    <img class="imglogo" src="https://raw.githubusercontent.com/techtek/Superherocards/main/logo%20stc.png" alt="aaaaa" width="" height="">
+
+
+     
+ 
+          
+    
+  </div>
+
+
+
+<br></br>
+
+
+
+<h4>The Alpha Series Consists of 30 NFT Cards, + 3 Secret Cards</h4> 
+
+<br></br>
+
+
+<center>
+
+
+
+
+    
+    <td class="tg-pzor"><i class="fa fa-star" style="font-size:20px"></i></td>
+    <td class="tg-cjky"><i class="fa fa-flash" style="font-size:20px"></i></td>
+<td class="tg-04rg"><i class="fa fa-eye" style="font-size:20px"></i></td>
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lxu8{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-3vmb{background-color:#0a0a0a;border-color:#343434;color:#ffffff;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-r8va{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-size:14px;text-align:center;vertical-align:top}
+.tg .tg-cjky{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-size:18px;text-align:center;vertical-align:top}
+.tg .tg-pzor{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-size:20px;text-align:center;vertical-align:top}
+.tg .tg-l3rm{background-color:#0a0a0a;border-color:#343434;color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-nj59{background-color:#0a0a0a;border-color:#343434;color:#ffffff;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-jr99{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-family:"Arial Black", Gadget, sans-serif !important;;
+  font-size:13px;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-kjln{background-color:#000000;border-color:#343434;font-family:"Arial Black", Gadget, sans-serif !important;;
+  text-align:center;vertical-align:top}
+.tg .tg-5ykx{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-family:Verdana, Geneva, sans-serif !important;;
+  font-size:13px;text-align:center;vertical-align:top}
+.tg .tg-x01c{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-family:Verdana, Geneva, sans-serif !important;;
+  font-size:12px;text-align:center;vertical-align:top}
+.tg .tg-hcwh{background-color:#0a0a0a;border-color:#343434;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-7pl4{background-color:#000000;border-color:#343434;text-align:center;vertical-align:top}
+.tg .tg-ap8h{background-color:#0A0A0A;border-color:#343434;color:#FFF;text-align:center;vertical-align:top}
+.tg .tg-lfh4{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-size:12px;text-align:center;vertical-align:top}
+.tg .tg-04rg{background-color:#0a0a0a;border-color:#343434;color:#efefef;font-size:16px;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 1074px">
+<colgroup>
+<col style="width: 50.010895px">
+<col style="width: 111.010895px">
+<col style="width: 64.010895px">
+<col style="width: 76.010895px">
+<col style="width: 74.010895px">
+<col style="width: 115.010895px">
+<col style="width: 46.010895px">
+<col style="width: 221.010895px">
+<col style="width: 181.010895px">
+<col style="width: 97.010895px">
+<col style="width: 39.010895px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-jr99">#</th>
+    <th class="tg-jr99">Rarity</th>
+    <th class="tg-lxu8">Total</th>
+    <th class="tg-lxu8">Symbol</th>
+    <th class="tg-jr99">Chance</th>
+    <th class="tg-nj59">Holo Chance</th>
+    <th class="tg-kjln"></th>
+    <th class="tg-nj59">Products</th>
+    <th class="tg-nj59">Special</th>
+    <th class="tg-3vmb">Availability</th>
+    <th class="tg-nj59">AE</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-5ykx">1/20</td>
+    <td class="tg-x01c">Common Cards</td>
+    <td class="tg-l3rm">20 pcs</td>
+    <td class="tg-pzor"><i class="fa fa-circle" style="font-size:20px"></i></td>
+    <td class="tg-5ykx">4 of 10</td>
+    <td class="tg-hcwh">1 of 10</td>
+    <td class="tg-7pl4"></td>
+    <td class="tg-hcwh">Booster pack includes 10 cards</td>
+    <td class="tg-ap8h">1 Rare card guaranteed</td>
+    <td class="tg-hcwh">Q2 - Q4 2022</td>
+    <td class="tg-hcwh">100 </td>
+  </tr>
+  <tr>
+    <td class="tg-l3rm">20/25</td>
+    <td class="tg-lfh4">Rare Cards</td>
+    <td class="tg-l3rm">5 pcs</td>
+    <td class="tg-pzor"><i class="fa fa-star" style="font-size:20px"></i></td>
+    <td class="tg-l3rm">1 of 20</td>
+    <td class="tg-hcwh">1 of 10</td>
+    <td class="tg-7pl4"></td>
+    <td class="tg-ap8h">Treasure chest includes 6 Booster packs</td>
+    <td class="tg-ap8h">+ 1 Mythical card</td>
+    <td class="tg-ap8h">Q2 - Q4 2022</td>
+    <td class="tg-hcwh">700</td>
+  </tr>
+  <tr>
+    <td class="tg-5ykx">25/30</td>
+    <td class="tg-x01c">Mythical Cards</td>
+    <td class="tg-l3rm">5 pcs</td>
+    <td class="tg-cjky"><i class="fa fa-flash" style="font-size:20px"></i></td>
+    <td class="tg-5ykx">1 of 30</td>
+    <td class="tg-hcwh">1 of 2</td>
+    <td class="tg-7pl4"></td>
+    <td class="tg-hcwh"></td>
+    <td class="tg-ap8h"></td>
+    <td class="tg-ap8h"></td>
+    <td class="tg-hcwh"></td>
+  </tr>
+  <tr>
+    <td class="tg-5ykx">30/33</td>
+    <td class="tg-x01c">Secret Cards</td>
+    <td class="tg-l3rm">3 pcs</td>
+    <td class="tg-cjky"><i class="fa fa-eye" style="font-size:20px"></i></td>
+    <td class="tg-5ykx">1 of 40</td>
+    <td class="tg-hcwh">1 of 2</td>
+    <td class="tg-7pl4"></td>
+    <td class="tg-hcwh"></td>
+    <td class="tg-hcwh"></td>
+    <td class="tg-ap8h"></td>
+    <td class="tg-hcwh"></td>
+  </tr>
+</tbody>
+</table>
+
+
+<br></br>
+<br></br>
+<br></br>
+
+<br></br>
+
+<h2>Superhero Alpha Set Card List</h2>
+
+<br></br>
+<br></br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/1.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">1/30 MOUZAERZ <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/2.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">2/30 PEAP PEAP <i class="fa fa-circle"></i></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/3.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">3/30 WUNNY <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/4.png" alt="Superhero card" width="600" height="auto">
+	  </a>
+    <div class="desc">4/30 MOUMOU  <i class="fa fa-star"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/5.png" alt="Superhero card" width="600" height="auto">
+	  </a>
+    <div class="desc">5/30 NAUTULIS <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/6.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">6/30 SR.VIVOR <i class="fa fa-star"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/backside.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">7 </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/8.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">8/30 GALAXZAEZ <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/9.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">9/30 SHAEDOW <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/backside.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">10/30 AELIEN - MYTHICAL</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">11 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">13 SHAEDOW <i class="fa fa-star"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/13.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">13 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">14 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">15 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/16.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">16 AELIEN <i class="fa fa-flash"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">17 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">18 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">19 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">20 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">21 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">22 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">23 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">24 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">25 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">26 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">27 Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/28.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">28 ZORG <i class="fa fa-flash"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/29.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">29 SLAEYER <i class="fa fa-flash"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/30.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">30/30 Draegon <i class="fa fa-flash"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">31/30 Name - Secret</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">32/30 Name - Secret</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">33/30 Name - Secret</div>
+  </div>
+</div>
+
+</center>
+
+
+
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Made by @techtek</p>
+  <p>More information on Discord</p>
+</div>
+
+</body>
+</html>
+
+
