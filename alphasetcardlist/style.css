@@ -295,6 +295,8 @@ opacity: 0.6;
 }
 
 
+
+
 .img1a {
 opacity: 0.3;
   color: #fff;
@@ -326,6 +328,19 @@ opacity: 0.3;
   max-width: 50%;  
   
   animation: shake 3.0s;
+  
+
+  
+}
+
+
+.imgblack {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+    bottom: 25%;
+	  z-index: 3;
+	
   
 
   
@@ -828,6 +843,11 @@ p {
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
 }
+
+
+
+
+
 
 
 
