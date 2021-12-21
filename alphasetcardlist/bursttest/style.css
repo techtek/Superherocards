@@ -1,0 +1,915 @@
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 48px;
+}
+.container .box-container {
+  position: absolute;
+  font-size: 120px;
+  color: #b2967d;
+  z-index: 100;
+}
+.container .box-container .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .box-container .box:after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  z-index: -1;
+  background-color: #f7fff7;
+}
+.container .emoji-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.container .emoji-container .emoji {
+  position: absolute;
+}
+.container .set1 .emoji-container.smile {
+  animation: curve-x-axis-11 0.8626923826s 0.3410615326s infinite;
+  color: #f9c74f;
+}
+@keyframes curve-x-axis-11 {
+  0% {
+    opacity: 1;
+    font-size: 31.8339048156px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(30.3478576017px);
+    animation-timing-function: ease-out;
+  }
+  7682.5328952433% {
+    font-size: 38.2515000596px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(60.6957152033px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-11 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-114.8952155321px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set1 .emoji-container.smile .emoji {
+  animation: curve-y-axis-11 0.8626923826s 0.3410615326s infinite;
+}
+.container .set1 .emoji-container.sad {
+  animation: curve-x-axis-12 0.858197833s 0.326068458s infinite;
+  color: #577590;
+}
+@keyframes curve-x-axis-12 {
+  0% {
+    opacity: 1;
+    font-size: 72.885335568px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-49.4621889679px);
+    animation-timing-function: ease-out;
+  }
+  7325.4170107538% {
+    font-size: 37.4680141266px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-98.9243779358px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-12 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-142.3091812332px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set1 .emoji-container.sad .emoji {
+  animation: curve-y-axis-12 0.858197833s 0.326068458s infinite;
+}
+.container .set1 .emoji-container.angry {
+  animation: curve-x-axis-13 0.7262700055s 0.6062498677s infinite;
+  color: #f94144;
+}
+@keyframes curve-x-axis-13 {
+  0% {
+    opacity: 1;
+    font-size: 20.7558847946px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-68.7608392462px);
+    animation-timing-function: ease-out;
+  }
+  7002.7217105563% {
+    font-size: 47.3683666858px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-137.5216784924px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-13 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-137.6463676779px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set1 .emoji-container.angry .emoji {
+  animation: curve-y-axis-13 0.7262700055s 0.6062498677s infinite;
+}
+.container .set1 .emoji-container.love {
+  animation: curve-x-axis-14 0.8091715972s 0.6805377574s infinite;
+  color: #f94144;
+}
+@keyframes curve-x-axis-14 {
+  0% {
+    opacity: 1;
+    font-size: 74.1393334887px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-2.260737365px);
+    animation-timing-function: ease-out;
+  }
+  7607.2289365351% {
+    font-size: 25.0621483261px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-4.5214747301px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-14 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-93.1008960763px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set1 .emoji-container.love .emoji {
+  animation: curve-y-axis-14 0.8091715972s 0.6805377574s infinite;
+}
+.container .set1 .emoji-container.funny {
+  animation: curve-x-axis-15 0.5665307035s 0.8425167896s infinite;
+  color: #90be6d;
+}
+@keyframes curve-x-axis-15 {
+  0% {
+    opacity: 1;
+    font-size: 38.1041978238px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-55.5633944662px);
+    animation-timing-function: ease-out;
+  }
+  8407.0149699359% {
+    font-size: 33.9959153865px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-111.1267889323px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-15 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-182.097753196px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set1 .emoji-container.funny .emoji {
+  animation: curve-y-axis-15 0.5665307035s 0.8425167896s infinite;
+}
+.container .set1 .emoji-container.laugh {
+  animation: curve-x-axis-16 0.5281819959s 0.142352128s infinite;
+  color: #f9c74f;
+}
+@keyframes curve-x-axis-16 {
+  0% {
+    opacity: 1;
+    font-size: 68.6756668497px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-4.7876703407px);
+    animation-timing-function: ease-out;
+  }
+  7220.4779496429% {
+    font-size: 73.9103466874px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-9.5753406815px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-16 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-64.6893596322px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set1 .emoji-container.laugh .emoji {
+  animation: curve-y-axis-16 0.5281819959s 0.142352128s infinite;
+}
+.container .set1 .emoji-container.flush {
+  animation: curve-x-axis-17 0.9355499682s 0.4622656714s infinite;
+  color: #f3722c;
+}
+@keyframes curve-x-axis-17 {
+  0% {
+    opacity: 1;
+    font-size: 20.231025333px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-86.7148232388px);
+    animation-timing-function: ease-out;
+  }
+  7927.1862297892% {
+    font-size: 68.7849422679px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-173.4296464776px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-17 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-75.2123003389px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set1 .emoji-container.flush .emoji {
+  animation: curve-y-axis-17 0.9355499682s 0.4622656714s infinite;
+}
+.container .set2 .emoji-container.smile {
+  animation: curve-x-axis-21 1.0029639391s 0.7720708943s infinite;
+  color: #f9c74f;
+}
+@keyframes curve-x-axis-21 {
+  0% {
+    opacity: 1;
+    font-size: 42.5449455683px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(151.3705764446px);
+    animation-timing-function: ease-out;
+  }
+  9192.3738067767% {
+    font-size: 67.3814715285px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(302.7411528893px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-21 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-182.0201228956px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set2 .emoji-container.smile .emoji {
+  animation: curve-y-axis-21 1.0029639391s 0.7720708943s infinite;
+}
+.container .set2 .emoji-container.sad {
+  animation: curve-x-axis-22 1.2044129817s 0.5300752745s infinite;
+  color: #577590;
+}
+@keyframes curve-x-axis-22 {
+  0% {
+    opacity: 1;
+    font-size: 36.3216063109px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(140.7488804156px);
+    animation-timing-function: ease-out;
+  }
+  8833.1997276612% {
+    font-size: 39.5175709498px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(281.4977608313px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-22 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-101.4329582997px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set2 .emoji-container.sad .emoji {
+  animation: curve-y-axis-22 1.2044129817s 0.5300752745s infinite;
+}
+.container .set2 .emoji-container.angry {
+  animation: curve-x-axis-23 1.6420867249s 0.0401808832s infinite;
+  color: #f94144;
+}
+@keyframes curve-x-axis-23 {
+  0% {
+    opacity: 1;
+    font-size: 28.7278420221px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(144.4118982228px);
+    animation-timing-function: ease-out;
+  }
+  9419.6076716721% {
+    font-size: 32.3039840204px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(288.8237964455px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-23 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-101.4316622903px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set2 .emoji-container.angry .emoji {
+  animation: curve-y-axis-23 1.6420867249s 0.0401808832s infinite;
+}
+.container .set2 .emoji-container.love {
+  animation: curve-x-axis-24 1.491985307s 0.5160903269s infinite;
+  color: #f94144;
+}
+@keyframes curve-x-axis-24 {
+  0% {
+    opacity: 1;
+    font-size: 21.8808104563px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(150.1868657101px);
+    animation-timing-function: ease-out;
+  }
+  8984.6971658874% {
+    font-size: 68.9849217047px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(300.3737314201px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-24 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-163.9111911721px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set2 .emoji-container.love .emoji {
+  animation: curve-y-axis-24 1.491985307s 0.5160903269s infinite;
+}
+.container .set2 .emoji-container.funny {
+  animation: curve-x-axis-25 1.2546857076s 0.0664010063s infinite;
+  color: #90be6d;
+}
+@keyframes curve-x-axis-25 {
+  0% {
+    opacity: 1;
+    font-size: 66.7964275763px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(151.4461079856px);
+    animation-timing-function: ease-out;
+  }
+  8857.7785540182% {
+    font-size: 77.7422427708px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(302.8922159712px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-25 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-132.4062448424px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set2 .emoji-container.funny .emoji {
+  animation: curve-y-axis-25 1.2546857076s 0.0664010063s infinite;
+}
+.container .set2 .emoji-container.laugh {
+  animation: curve-x-axis-26 1.1892676362s 0.4095294275s infinite;
+  color: #f9c74f;
+}
+@keyframes curve-x-axis-26 {
+  0% {
+    opacity: 1;
+    font-size: 16.334536319px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(174.1761161452px);
+    animation-timing-function: ease-out;
+  }
+  8948.3161169952% {
+    font-size: 63.0310545554px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(348.3522322904px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-26 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-154.79136651px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set2 .emoji-container.laugh .emoji {
+  animation: curve-y-axis-26 1.1892676362s 0.4095294275s infinite;
+}
+.container .set2 .emoji-container.flush {
+  animation: curve-x-axis-27 1.8312657478s 0.3375677986s infinite;
+  color: #f3722c;
+}
+@keyframes curve-x-axis-27 {
+  0% {
+    opacity: 1;
+    font-size: 52.2230879949px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(122.4274883775px);
+    animation-timing-function: ease-out;
+  }
+  9190.7392975173% {
+    font-size: 61.3144131471px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(244.854976755px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-27 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-142.6695860201px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set2 .emoji-container.flush .emoji {
+  animation: curve-y-axis-27 1.8312657478s 0.3375677986s infinite;
+}
+.container .set3 .emoji-container.smile {
+  animation: curve-x-axis-31 1.2813706374s 0.4560807059s infinite;
+  color: #f9c74f;
+}
+@keyframes curve-x-axis-31 {
+  0% {
+    opacity: 1;
+    font-size: 45.3554541718px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-179.8716106785px);
+    animation-timing-function: ease-out;
+  }
+  8586.2678488846% {
+    font-size: 71.4229005052px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-359.7432213569px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-31 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-149.5132180311px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set3 .emoji-container.smile .emoji {
+  animation: curve-y-axis-31 1.2813706374s 0.4560807059s infinite;
+}
+.container .set3 .emoji-container.sad {
+  animation: curve-x-axis-32 1.1281713866s 0.3752910954s infinite;
+  color: #577590;
+}
+@keyframes curve-x-axis-32 {
+  0% {
+    opacity: 1;
+    font-size: 57.8964380646px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-102.5355631234px);
+    animation-timing-function: ease-out;
+  }
+  8849.6110557407% {
+    font-size: 68.0109550128px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-205.0711262467px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-32 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-163.3793982251px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set3 .emoji-container.sad .emoji {
+  animation: curve-y-axis-32 1.1281713866s 0.3752910954s infinite;
+}
+.container .set3 .emoji-container.angry {
+  animation: curve-x-axis-33 1.4149560005s 0.6588985576s infinite;
+  color: #f94144;
+}
+@keyframes curve-x-axis-33 {
+  0% {
+    opacity: 1;
+    font-size: 73.2729456044px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-115.3365975558px);
+    animation-timing-function: ease-out;
+  }
+  9395.5704159223% {
+    font-size: 80.6062786988px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-230.6731951116px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-33 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-145.5865645201px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set3 .emoji-container.angry .emoji {
+  animation: curve-y-axis-33 1.4149560005s 0.6588985576s infinite;
+}
+.container .set3 .emoji-container.love {
+  animation: curve-x-axis-34 1.2843389616s 0.7449268475s infinite;
+  color: #f94144;
+}
+@keyframes curve-x-axis-34 {
+  0% {
+    opacity: 1;
+    font-size: 17.4893433249px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-190.529246374px);
+    animation-timing-function: ease-out;
+  }
+  8965.7093888404% {
+    font-size: 79.3687695445px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-381.058492748px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-34 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-172.4985268735px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set3 .emoji-container.love .emoji {
+  animation: curve-y-axis-34 1.2843389616s 0.7449268475s infinite;
+}
+.container .set3 .emoji-container.funny {
+  animation: curve-x-axis-35 1.3095477413s 0.0489658953s infinite;
+  color: #90be6d;
+}
+@keyframes curve-x-axis-35 {
+  0% {
+    opacity: 1;
+    font-size: 62.7682816864px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-109.2826327211px);
+    animation-timing-function: ease-out;
+  }
+  8745.2567208066% {
+    font-size: 78.1840385567px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-218.5652654423px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-35 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-193.8350856607px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set3 .emoji-container.funny .emoji {
+  animation: curve-y-axis-35 1.3095477413s 0.0489658953s infinite;
+}
+.container .set3 .emoji-container.laugh {
+  animation: curve-x-axis-36 1.749427052s 0.7942711004s infinite;
+  color: #f9c74f;
+}
+@keyframes curve-x-axis-36 {
+  0% {
+    opacity: 1;
+    font-size: 62.6548330529px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-187.6573584228px);
+    animation-timing-function: ease-out;
+  }
+  9196.1806745821% {
+    font-size: 83.7662570526px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-375.3147168455px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-36 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-161.2442275954px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set3 .emoji-container.laugh .emoji {
+  animation: curve-y-axis-36 1.749427052s 0.7942711004s infinite;
+}
+.container .set3 .emoji-container.flush {
+  animation: curve-x-axis-37 1.7124571499s 0.9502355267s infinite;
+  color: #f3722c;
+}
+@keyframes curve-x-axis-37 {
+  0% {
+    opacity: 1;
+    font-size: 78.4250967721px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-110.6892703113px);
+    animation-timing-function: ease-out;
+  }
+  9175.7999547411% {
+    font-size: 29.7596353827px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-221.3785406226px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-37 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-107.2053815457px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.container .set3 .emoji-container.flush .emoji {
+  animation: curve-y-axis-37 1.7124571499s 0.9502355267s infinite;
+}
+.container .set4 .emoji-container.smile {
+  animation: curve-x-axis-41 1.6978170657s 0.0363515931s infinite;
+  color: #f9c74f;
+}
+@keyframes curve-x-axis-41 {
+  0% {
+    opacity: 1;
+    font-size: 35.2646355761px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(-253.1419781746px);
+    animation-timing-function: ease-out;
+  }
+  9357.8650208494% {
+    font-size: 67.741567403px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-506.2839563491px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-41 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-196.9442194328px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes curve-y-axis-47 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-176.6376734423px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes curve-x-axis-41 {
+  0% {
+    opacity: 1;
+    font-size: 17.1275757407px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(257.5744457554px);
+    animation-timing-function: ease-out;
+  }
+  8775.5063515324% {
+    font-size: 38.292283386px;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(515.1488915108px);
+    opacity: 0;
+  }
+}
+@keyframes curve-y-axis-41 {
+  0% {
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-168.203128615px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

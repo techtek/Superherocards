@@ -1,0 +1,47 @@
+body {
+  background: black;
+  text-align: center;
+}
+
+.particle {
+  position: absolute;
+}
+.particle .fill {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 15px;
+}
+.particle .fill.normal {
+  background: white;
+}
+.particle .fill.dark {
+  background: darkblue;
+}
+.particle .fill.bright {
+  background: blue;
+}
+
+.Logo {
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+.Logo img {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+}
+.Logo #LogoEmitter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 8%;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  width: 15px;
+  height: 15px;
+  background: red;
+}
