@@ -234,16 +234,26 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 74vh;
+  height: 90vh;
  
 
   background: url() no-repeat center center/cover;
   
 }
+
+.bg-video-wrap2 { 
+  position: relative;
+ 
+  width: 100%;
+  height: 90vh;
+ 
+
+  background: url() no-repeat center center/cover;
+  
+}
+
 video {
-  transform: rotateY(180deg);
-    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
-    -moz-transform:rotateY(180deg); /* Firefox */
+
   min-width: 100%;
   margin-top: -30px;
 
@@ -278,24 +288,7 @@ h1 {
 
 
 
-.img1 {
-opacity: 0.6;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 3;
-  width: 130%;
-  height: 130%;
-		animation: shake2 20.0s;
-		animation-iteration-count: infinite;
-		background-image: linear-gradient(white, black);
-		
-  
-}
+
 
 
 
@@ -323,12 +316,12 @@ opacity: 0.3;
   color: #fff;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 45%;
   left: 0;
   right: 0;
   margin: auto;
   z-index: 3;
-  max-width: 50%;  
+  max-width: 45%;  
   
   animation: shake 3.0s;
   
@@ -339,15 +332,31 @@ opacity: 0.3;
 
 .imgblack {
   position: absolute;
-  bottom: 0;
+ 
   left: 0;
-    bottom: 25%;
+    bottom: 10%;
 	  z-index: 3;
 	
   
 
   
 }
+
+
+
+.imgblack2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+    bottom: 13%;
+	  z-index: 3;
+	
+  
+
+  
+}
+
+
 
 
 
@@ -407,7 +416,7 @@ notused img:hover {
   --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
   --charizard1: #1a6cf0;
   --charizard2: #34d5eb;
-  --charizardfront: url(images/cards/28.png);
+  --charizardfront: url(images/cards/26.png);
   --pika1: #1a6cf0;
   --pika2: #34d5eb;
   --pikafront: url(images/cards/23.png);
@@ -1118,6 +1127,34 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
 
 

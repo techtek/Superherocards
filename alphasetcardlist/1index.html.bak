@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900'><link rel="stylesheet" href="./style.css">
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+<audio autoplay>
+  <source src="backgroundloop.wav" type="audio/wav">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+<!-- Paticles -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+
+
+
+<div class="bg-video-wrap">
+    <video src="video/background4.mp4" loop muted autoplay>
+    </video>
+    <div class="">
+         
+ 
+		 
+		 
+    </div> 
+ 
+
+      
+
+
+      
+      
+      
+    <img class="imglogo" src="https://raw.githubusercontent.com/techtek/Superherocards/main/logo%20stc.png" alt="aaaaa" width="" height="">
+
+
+
+ 
+          
+    
+  </div>
+
+
+
+ <img class="imgblack" src="images/elements/blacknologo.png" alt="aaaaaa" width="100%" height=" ">
+ 
+
+
+
+
+
+<center>
+
+
+
+
+
+
+
+<h3><i>As the portal was opened, things emerged from it, save the universe and collect and trade them all, and let them gather &aelig; rewards for you!</i><h3>
+
+
+<h3>(This is a preview website of the Superhero NFT Tradings Cards - Alpha set)<h3>
+
+
+<br></br>
+
+<iframe src="3dcardspin/index.html" width="100%" height="530" frameBorder="0">Browser not compatible.</iframe>
+
+<h2>Alpha Set Card Details</h2>
+<h3>The Alpha set consists of 30 NFT trading cards, + 3 Secret cards to find</h3>
+
+
+
+<table>
+  <caption></caption>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Rarity</th>
+      <th scope="col">Total</th>
+      <th scope="col">Symbol</th>
+      <th scope="col">Chance</th>
+      <th scope="col">Holo Chance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="#">1/20</td>
+      <td data-label="Rarity">Common Cards</td>
+      <td data-label="Total">20 pcs</td>
+      <td data-label="Symbol"><i class="fa fa-circle" style="font-size:20px"></td>
+      <td data-label="Chance">4 of 10</td>
+      <td data-label="Holo Chance">1 of 10</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="#">20/25</td>
+      <td data-label="Rarity">Rare Cards</td>
+      <td data-label="Total">5 pcs</td>
+      <td data-label="Symbol"><i class="fa fa-star" style="font-size:20px"></td>
+      <td data-label="Chance">1 of 20</td>
+      <td data-label="Holo Chance">1 of 10</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="#">25/30</td>
+      <td data-label="Rarity">Mythical Cards</td>
+      <td data-label="Total">5 pcs</td>
+      <td data-label="Symbol"><i class="fa fa-flash" style="font-size:20px"></td>
+      <td data-label="Chance">1 of 30</td>
+<td data-label="Holo Chance">1 of 2</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="#">30/33</td>
+      <td data-label="Rarity">Secret Cards</td>
+      <td data-label="Total">3 pcs</td>
+      <td data-label="Symbol"><i class="fa fa-eye" style="font-size:20px"></td>
+      <td data-label="Chance">1 of 40</td>
+      <td data-label="Holo Chance">1 of 2</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<br></br>
+<br></br>
+
+<br></br>
+
+
+ 
+
+<br></br>
+<img class="boosterpacks" src="images/products/boosterpacks.png" alt="boosterpacks" width="450px" height=" ">
+ 
+<h2>Products</h2>
+<h3>Cards can be obtained from these products for a limited amount of time</h3>
+
+
+<table>
+  <caption></caption>
+  <thead>
+    <tr>
+	  <th scope="col"></th>
+      <th scope="col">Product</th>
+	  <th scope="col">Booster Packs</th>
+      <th scope="col">Special</th>
+      <th scope="col">Availability</th>
+	  <th scope="col">Quantity</th>
+	  <th scope="col">Tradable NFT</th>
+      <th scope="col">AE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+	  <td data-label="Booster Pack"><img class="boosterpacks" src="images/products/boosterpacks.png" alt="boosterpacks" width="75%" height=" "></td>
+      <td data-label="Product">Booster Pack</td>
+	  <td data-label="Booster pack">1</td>
+      <td data-label="Special">1 Rare NFT card guaranteed to be found</td>
+      <td data-label="Availability">Q2 till Q4 2022</td>
+	  <td data-label="Quantity"><img class="boosterpacks" src="images/elements/aeblackicon.jpg" alt="boosterpacks" width="15%" height=" "></td>
+      <td data-label="tradable">yes</td>
+      <td data-label="AE">99</td>
+
+    </tr>
+    <tr>
+	  <td data-label="Elite Collector Box"><img class="boosterpacks" src="images/products/blackbox.png" alt="boosterpacks" width="75%" height=" "></td>
+	  <td scope="row" data-label="Product">Elite Collector Box</td>
+	  <td data-label="Booster Packs">6</td>
+      <td data-label="Special">-</td>
+      <td data-label="Availability">Q2 till Q4 2022</td>
+	  <td data-label="Quantity"><img class="boosterpacks" src="images/elements/aeblackicon.jpg" alt="boosterpacks" width="15%" height=" "></td>
+	  <td data-label="tradable">yes</td>
+      <td data-label="AE">699</td>
+    </tr>
+
+	 <tr>
+	  <td data-label="Mythical Collector Box"><img class="boosterpacks" src="images/products/silverbox.png" alt="boosterpacks" width="75%" height=" "></td>
+      <td scope="row" data-label="Product">Mythical Collector Box</td>
+	  <td data-label="Booster Pack">10</td>
+      <td data-label="Special">+ 1 Holo Mythical Draegon NFT Card </td>
+      <td data-label="Availability">Q2 till Q4 2022</td>
+	  <td data-label="Quantity">25</td>
+	  <td data-label="tradable">yes</td>
+      <td data-label="AE">*00</td>
+    </tr>
+	
+	 <tr>
+	  <td data-label="Golden Fortune Box"><img class="boosterpacks" src="images/products/goldbox.png" alt="boosterpacks" width="75%" height=" "></td>
+      <td scope="row" data-label="Product">Golden Fortune Box</td>
+	  <td data-label="Booster Pack">12</td>
+      <td data-label="Special">+ 1 Holo Golden Secret Draegon NFT Card* <br></br>+ 1 Holo Golden Secret Draegon promotional card made of metal, with display case and stand, shipped in 7 days.</td>
+      <td data-label="Availability">Q2 till Q4 2022</td>
+	  <td data-label="Quantity">10</td>
+	  <td data-label="tradable">yes*</td>
+      <td data-label="AE">*000</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<br></br>
+
+<br></br>
+
+<br></br>
+
+
+
+<h2>Booster Pack Opening</h2>
+<h3>Opening animation of a booster pack</h3>
+
+<br></br>
+
+<br></br>
+
+<br></br>
+
+<iframe src="packopening/index.html" width="100%" height="830" frameBorder="0">Browser not compatible.</iframe>
+
+
+<div class="bg-video-wrap2">
+    <video src="video/card3.mp4" loop muted autoplay>
+    </video>
+	 <img class="imgblack2" src="images/elements/blacknologo.png" alt="aaaaaa" width="100%" height="600px%">
+ 
+ <br></br>
+<br></br>
+
+<br></br>
+
+
+<h2>Prevision Rewards</h2>
+<h3>Earn prevision rewards on the cards that you have owned and traded</h3>
+
+<table>
+  <caption> </caption>
+  <thead>
+    <tr>
+      <th scope="col">Owner</th>
+      <th scope="col">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Owner">1st card owner</td>
+      <td data-label="Amount">5.0%</td>
+
+    </tr>
+    <tr>
+      <td data-label="Owner">2nd card owner</td>
+      <td data-label="Amount">2.0%</td>
+    </tr>
+    
+        <tr>
+      <td data-label="Owner">3rd card owner</td>
+      <td data-label="Amount">1.0%</td>
+    </tr>
+    
+        <tr>
+      <td data-label="Owner">4th card owner</td>
+      <td data-label="Amount">1.0%</td>
+    </tr>
+
+    <tr>
+      <td data-label="Owner">5th card owner</td>
+      <td data-label="Amount">0.5%</td>
+    </tr>
+
+    <tr>
+      <td data-label="Owner">6th card owner</td>
+      <td data-label="Amount">0.5%</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<br></br>
+
+<br></br>
+
+<br></br>
+
+
+<br></br>
+
+<iframe src="3dcardspingold/index.html" width="100%" height="530" frameBorder="0">Browser not compatible.</iframe>
+
+
+<div class="Logo">
+<img src="https://techtek.github.io/Superherocards/alphasetcardlist/images/elements/logosuperherotradingcards.png" alt="" width="420(x)" height="auto"/>
+   <div id="LogoEmitter"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+<h2>Alpha Set Card Overview</h2>
+<h3>See what cards can be found in this first to be released Alpha set.</h3>
+
+<br></br>
+<br></br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/1.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">1/30  MOUZERZ  <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/2.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">2/30  SLEEPY GARGOYLE  <i class="fa fa-circle"></i></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/3.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">3/30  WUNNY  <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/4.png" alt="Superhero card" width="600" height="auto">
+	  </a>
+    <div class="desc">4/30  SAENT   <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/5.png" alt="Superhero card" width="600" height="auto">
+	  </a>
+    <div class="desc">5/30  PAEP PAEP  <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/6.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">6/30  OWOWL  <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/7.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">7/30  CHIP  <i class="fa fa-circle"></i>  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/8.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">8/30  DAEVID  <i class="fa fa-circle"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/9.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">9/30  NYMPHY  <i class="fa fa-star"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/10.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">10/30  NIGHT WITCH  <i class="fa fa-star"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/11.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">11/30  MOON DREAM  <i class="fa fa-circle"></i>  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/12.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">12/30  SHAEDOW  <i class="fa fa-circle"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/13.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">13/30  BULLISH DANCE  <i class="fa fa-star"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/14.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">14/30  MOON WALK  <i class="fa fa-star"></i>  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/15.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">15/30  SR.VIVOR  <i class="fa fa-star"></i>  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/16.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">16/30 MECHAREX <i class="fa fa-flash"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">17/30  NAME   <i class="fa fa-flash"></i>  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/18.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">18/30  MOUMOU   <i class="fa fa-star"></i>  </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">19/30   NAME   <i class="fa fa-circle"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/20.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">20/30  GALAXZAEZ  <i class="fa fa-flash"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/backside.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">21/30  PURRRY  <i class="fa fa-flash"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/22.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">22/30  MAEEEP  <i class="fa fa-star"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/23.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">23/30  AEPY-OO-OO-AH  <i class="fa fa-star"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/24.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">24/30  AEFOX  <i class="fa fa-circle"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/25.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">25/30  POINK-OINK  <i class="fa fa-star"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/26.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">26/30  ZORG  <i class="fa fa-flash"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/27.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">27/30  SLAEYER  <i class="fa fa-flash"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/28.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">28/30  MONEY TOAD  <i class="fa fa-flash"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/29.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">29/30  MONEY TREE  <i class="fa fa-flash"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+      <img src="images/cards/30.png" alt="Superhero card" width="600" height="auto">
+    </a>
+    <div class="desc">30/30  Draegon  <i class="fa fa-flash"></i> </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/31.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">31/30  MONEY TOAD  <i class="fa fa-eye"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/32.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">32/30  GOLDEN MONEY TREE  <i class="fa fa-eye"></i></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="">
+    <img src="images/cards/33.png" alt="cardbackside" width="600" height="auto">
+    </a>
+    <div class="desc">33/30  GOLDEN DRAEGON  <i class="fa fa-eye"></i></div>
+  </div>
+</div>
+
+
+
+</center>
+
+
+
+
+
+
+
+<div class="clearfix"></div>
+
+
+
+
+<!-- partial:index.partial.html -->
+<main id=app>
+  
+  <defs>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Raleway|Roboto|Indie+Flower|Gamja+Flower');</style>
+  </defs>
+
+
+
+<br></br>
+
+<br></br>
+
+<br></br>
+
+
+
+
+  <h2>Alpha Set - Holo Effects</h2>
+<h3>Each card has a chance to be found with one of 4 different Holo Effects</h3>
+  
+  <section class="cards">
+    
+    <div class="card charizard animated"></div>
+    
+    <div id="content" class="card pika animated">
+      <svg
+        width="100%"
+        height="100%"
+           
+           
+         viewBox="0 0 500 75"
+        preserveAspectRatio="xMinYMid meet"
+
+        xmlns="http://www.w3.org/2000/svg"       mlns:xlink="http://www.w3.org/1999/xlink"
+  >
+
+<! –– Name of the card ––>
+        <text          
+          x="27"
+          y="98"
+          font-size="32"
+          fill="#ffffff"
+              >AELIEN</text>
+        
+<! –– Type of card ––>        
+         <text          
+          x="60"
+          y="136"
+          font-size="17"
+          fill="#ffffff"
+              >Type: Cosmic </text>
+  
+ <! –– Character text ––>
+        <text          
+          x="27"
+          y="176"
+          font-size="25"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >Character text goes here</text>
+        
+<! –– Card serie ––>
+         <text          
+          x="68"
+          y="290"
+          font-size="16"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >ALPHA SET</text>
+        
+         <text          
+          x="68"
+          y="325"
+          font-size="32"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >2/30</text>
+        
+ <! –– Existence of this card ––>       
+          <text          
+          x="163"
+          y="290"
+          font-size="16"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >EXISTENCE</text>
+        
+         <text          
+          x="163"
+          y="325"
+          font-size="32"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >3/6</text>
+ 
+ <! –– Card minted on date ––>   
+         <text          
+          x="253"
+          y="290"
+          font-size="16"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >MINTED</text>
+        
+         <text          
+          x="253"
+          y="322"
+          font-size="16"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >26/08/2021</text>
+        
+        
+<! –– Rarity of the NFT card ––> 
+         <text          
+          x="350"
+          y="290"
+          font-size="18"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >RARITY</text>
+        
+                 <text          
+          x="350"
+          y="322"
+          font-size="16"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >MYTHICAL</text>
+        
+ <! –– XP Experience Points of the NFT card ––>    
+        <text          
+          x="440"
+          y="150"
+          font-size="26"
+          text-anchor="middle"
+          fill="#ffffff"
+              >XP</text>
+
+         <text          
+          x="440"
+          y="177"
+          font-size="26"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#1463F3"
+              >600</text>
+        
+        
+        
+        
+   <! –– TX Transactions of the NFT card ––>    
+        <text          
+          x="440"
+          y="220"
+          font-size="26"
+          text-anchor="middle"
+          fill="#ffffff"
+              >TX</text>
+
+         <text          
+          x="440"
+          y="247"
+          font-size="26"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#1463F3"
+              >2</text>  
+        
+        
+  <! –– PV Prevision reward % ––>    
+        <text          
+          x="440"
+          y="290"
+          font-size="26"
+          text-anchor="middle"           
+
+          fill="#ffffff"
+              >PV</text>
+
+         <text          
+          x="440"
+          y="317"
+          font-size="26"
+          font-weight="bold"
+          text-anchor="middle"
+          fill="#1463F3"
+              >15%</text> 
+
+
+        
+          <style><![CDATA[
+  text {
+    font: bold Impact;
+  }
+  ]]></style>
+                
+      </svg>       
+      
+      </div>
+
+    
+   
+    <div class="card eevee animated"></div>
+    
+    <div class="card mewtwo animated"></div>
+    
+	
+	
+	
+  </section>
+  
+  
+
+
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+
+<div style="padding:6px;">
+  <p></p>
+  <p></p>
+</div>
+
+
+
+<br></br>
+
+<br></br>
+
+
+<br></br>
+
+
+
+
+
+</body>
+</html>
