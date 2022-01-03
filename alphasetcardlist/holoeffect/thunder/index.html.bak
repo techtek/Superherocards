@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Holo Effect</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main id=app>
+  
+  <defs>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Raleway|Roboto|Indie+Flower|Gamja+Flower');</style>
+  </defs>
+
+
+  <section class="cards">
+    
+    <div class="card charizard animated"></div>
+    
+    <div id="content" class="card pika animated">
+      <svg
+        width="100%"
+        height="100%"
+           
+           
+         viewBox="0 0 500 75"
+        preserveAspectRatio="xMinYMid meet"
+
+        xmlns="http://www.w3.org/2000/svg"       mlns:xlink="http://www.w3.org/1999/xlink"
+  >
+
+<! –– Name of the card ––>
+        <text          
+          x="27"
+          y="98"
+          font-size="32"
+          fill="#ffffff"
+              >AELIEN</text>
+        
+<! –– Type of card ––>        
+         <text          
+          x="60"
+          y="136"
+          font-size="17"
+          fill="#ffffff"
+              >Type: Cosmic </text>
+  
+ <! –– Character text ––>
+        <text          
+          x="27"
+          y="176"
+          font-size="25"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >Character text goes here</text>
+        
+<! –– Card serie ––>
+         <text          
+          x="68"
+          y="290"
+          font-size="16"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >ALPHA SET</text>
+        
+         <text          
+          x="68"
+          y="325"
+          font-size="32"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >2/30</text>
+        
+ <! –– Existence of this card ––>       
+          <text          
+          x="163"
+          y="290"
+          font-size="16"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >EXISTENCE</text>
+        
+         <text          
+          x="163"
+          y="325"
+          font-size="32"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >3/6</text>
+ 
+ <! –– Card minted on date ––>   
+         <text          
+          x="253"
+          y="290"
+          font-size="16"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >MINTED</text>
+        
+         <text          
+          x="253"
+          y="322"
+          font-size="16"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >26/08/2021</text>
+        
+        
+<! –– Rarity of the NFT card ––> 
+         <text          
+          x="350"
+          y="290"
+          font-size="18"
+          text-anchor="middle"
+          fill="#ffffff"
+          fill-opacity="80%"
+              >RARITY</text>
+        
+                 <text          
+          x="350"
+          y="322"
+          font-size="16"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#ffffff"
+              >MYTHICAL</text>
+        
+ <! –– XP Experience Points of the NFT card ––>    
+        <text          
+          x="440"
+          y="150"
+          font-size="26"
+          text-anchor="middle"
+          fill="#ffffff"
+              >XP</text>
+
+         <text          
+          x="440"
+          y="177"
+          font-size="26"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#1463F3"
+              >600</text>
+        
+        
+        
+        
+   <! –– TX Transactions of the NFT card ––>    
+        <text          
+          x="440"
+          y="220"
+          font-size="26"
+          text-anchor="middle"
+          fill="#ffffff"
+              >TX</text>
+
+         <text          
+          x="440"
+          y="247"
+          font-size="26"
+          text-anchor="middle"
+          font-weight="bold"
+          fill="#1463F3"
+              >2</text>  
+        
+        
+  <! –– PV Prevision reward % ––>    
+        <text          
+          x="440"
+          y="290"
+          font-size="26"
+          text-anchor="middle"           
+
+          fill="#ffffff"
+              >PV</text>
+
+         <text          
+          x="440"
+          y="317"
+          font-size="26"
+          font-weight="bold"
+          text-anchor="middle"
+          fill="#1463F3"
+              >15%</text> 
+
+
+        
+          <style><![CDATA[
+  text {
+    font: bold Impact;
+  }
+  ]]></style>
+                
+      </svg>       
+      
+      </div>
+
+    
+   
+    <div class="card eevee animated"></div>
+    
+    <div class="card mewtwo animated"></div>
+    
+  </section>
+  
+  
+
+ <br></br>
+ <br></br>
+ <br></br>
+  
+  
+  <style class="hover"></style>
+  
+
+
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
