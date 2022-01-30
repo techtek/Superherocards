@@ -8,7 +8,7 @@ body {
     }
 
 h2 {
-  color: lightgrey;
+  color: white;
   align: center;
   text-align: center;
 }
@@ -1207,12 +1207,12 @@ p {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black; 
+  background: #1c1c1c; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #e51595; 
 }
 
 /* Handle on hover */
