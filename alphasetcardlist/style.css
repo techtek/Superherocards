@@ -29,7 +29,10 @@ img {
 
 
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 
 
@@ -269,6 +272,21 @@ body {
 
 
 
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto%;
+  background: url('images/my-image.png') no-repeat center center/cover;
+  z-index: 2;
+  .overlay-off & {
+    z-index: 0;
+  }
+}
+
+
+
 
 
 
@@ -276,7 +294,9 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 90vh;
+  height: 100%;
+  
+  
  
 
   background: url() no-repeat center center/cover;
@@ -287,10 +307,11 @@ body {
   position: relative;
  
   width: 100%;
-  height: 90vh;
+  height: 100%;
  
 
   background: url() no-repeat center center/cover;
+  
   
 }
 
@@ -298,7 +319,7 @@ video {
 
   min-width: 100%;
   margin-top: -30px;
-
+ 
   
   z-index: 1;
 }
@@ -312,6 +333,7 @@ video {
   background-size: 6px 6px;
   z-index: 2;
 }
+
 h1 {
   text-align: center;
   color: #fff;
@@ -376,7 +398,7 @@ opacity: 0.3;
   position: absolute;
  
   left: 0;
-    bottom: 10%;
+    bottom: 0%;
 	  z-index: 3;
 	
   
