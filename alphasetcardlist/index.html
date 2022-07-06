@@ -32,28 +32,66 @@
 
 
 
-
 <!-- Paticles -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
-
-<div class="bg-video-wrap">
-   <video style="width:100%;max-height:auto" autoplay muted loop preload="auto"><source src="video/background4.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-    <div class="">
-         
-
-		 
-		 
-    </div> 
- 
-
-      
 
 
    
-          
     
+	<div class="">
+         
+ 
+    </div> 
+ 
+
   </div>
+
+
+
+<div class="container">
+<div class="bg-video-wrap">
+
+
+
+
+<audio src="backgroundloop.wav"></audio>
+<button id="button">
+  <i class="fas fa-volume-up"></i>
+</button>
+
+
+
+
+
+<script>
+const button = document.querySelector("#button");
+const icon = document.querySelector("#button > i");
+const audio = document.querySelector("audio");
+
+button.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.volume = 0.2;
+    audio.play();
+    icon.classList.remove('fa-volume-up');
+    icon.classList.add('fa-volume-mute');
+    
+  } else {
+    audio.pause();
+    icon.classList.remove('fa-volume-mute');
+    icon.classList.add('fa-volume-up');
+  }
+  button.classList.add("fade");
+});
+</script>
+
+
+   <video style="z-index: 15;width:100%;max-height:auto" autoplay muted loop preload="auto"><source src="video/background4.mp4" type="video/mp4">Your browser does not support the video tag. </video>
+  
+  <button class="btn" onclick="window.location.href = 'https://unruffled-swartz-c2edc5.netlify.app/#/';">Make Reservation</button>
+ 
+
+</div>
 
 
 <!--
@@ -95,6 +133,7 @@
 
 
 <h3>(This is a preview website of the Superhero NFT Tradings Cards - Alpha set)<h3>
+
 
 
 <br></br>
@@ -198,17 +237,38 @@
 
 
 <br></br>
-<br></br>
-<br></br>
+
 
 
  
 
 <br></br>
-<img class="boosterpacks" src="images/products/boosterpacks.png" alt="boosterpacks" width="50%" height="">
+<img class="boosterpacks" src="images/products/boosterpacks3a.png" alt="boosterpacks" >
+<h2>Reserve your Alpha series boosterpack </h2> 
+
+<p>Make a reservation and be among the first to own NFTs on the aeternity blockchain. Each pack includes 4 Superhero NFT trading with it you get 4 chances on finding rare cards,</p> 
+<p>if you find the Draegon you will instantly become one of the biggest, fortuned and most widely acclaimed Superheros of them all! </p>
+
+<p>Alpha series Boosterpack are only available to mint for a limited amount of time and with only 500 packs available!</p>
+
+<p>Only if all 500 packs are reserved within the first 7 days, a second reservation period will be started, to be able to have a backup for unforeseen demand.</p>
+<br></br>
+<br></br> 
+
+<button class="button buttonreservation" onclick="window.location.href = 'https://unruffled-swartz-c2edc5.netlify.app/#/';">Make reservation</button>
+<br></br>
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br>
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
  
 <h2>Products</h2>
-<h3>Cards can be obtained from these products for a limited amount of time</h3>
+<h3>Cards can be obtained from these products for a limited amount of time, </h3>
 
 
 <table>
@@ -281,8 +341,8 @@
 
 
 
-<h2>Booster Pack Opening</h2>
-<h3>Opening animation of a booster pack</h3>
+<h2>Booster Pack Opening simulation</h2>
+<h3>Opening animation simulation of a Superhero alpha series booster pack</h3>
 
 <br></br>
 

@@ -6,6 +6,14 @@ body {
 	text-align: center;
 	
     }
+	
+	
+p {
+	font: 12px Roboto, Roboto;
+	margin: 0;
+	padding: 0;
+	text-align: center;	
+    }	
 
 h2 {
   color: white;
@@ -21,6 +29,7 @@ h4 {
 img {
     display: block;
     margin: 0 auto;
+	width: 40%;
 	
 	
 }
@@ -37,6 +46,51 @@ html, body {
 
 
 
+.boosterpacks {
+
+	}
+
+.container {
+  position: relative;
+
+ 
+}
+
+.container img {
+ 
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+    height: auto;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #2e2e2e;
+  color: white;
+  font-size: 16px;
+  padding: 0 15px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: #4f4f4f;
+}
+
+
+
+
+
+
+
+
+
+
+
 button {
   background: #2e2e2e;
   border: 0;
@@ -49,6 +103,8 @@ button {
   font-weight: bold;
   margin: 0 auto;
 
+  
+
   outline: none;
 }
 button:hover {
@@ -59,7 +115,12 @@ button:active {
 }
 
 
-
+.buttonreservation:hover {
+  position:absolute
+  color: white;
+   bottom: 300px;
+  left: 0;
+}
 
 
 
