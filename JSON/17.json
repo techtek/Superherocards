@@ -1,0 +1,11 @@
+{
+    "name": "Mecharex",
+    "description": "Prototype bybrid creature created by the Night Witch, part creature part robot. She will probebly brew more prototype hybrid creatures from her cooking pot.",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/17",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "mythical"
+    }
+}

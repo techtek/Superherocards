@@ -1,0 +1,12 @@
+{
+    "name": "Meeeap",
+    "description": "Tiny mouse like creature, escaped the Night Witch after nibling trough the iron bars of it's hanging bird cage.",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/24",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "rare"
+    }
+}
+

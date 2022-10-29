@@ -1,0 +1,11 @@
+{
+    "name": "Moon Walk",
+    "description": "Time for your first walk on the lunar surface beware, some Raetz may be there soon. /“Abort mission! Do you copy?!/" ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/15",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "rare"
+    }
+}

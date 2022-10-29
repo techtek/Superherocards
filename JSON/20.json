@@ -1,0 +1,12 @@
+{
+    "name": "Nautilux",
+    "description": "The moon light will make it's spots glow and twinkle like a galaxy of stars. ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/20",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "common"
+    }
+}
+

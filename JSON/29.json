@@ -1,0 +1,12 @@
+{
+    "name": "Money Tree",
+    "description": "Brings great fortune, a sacred symbol of nobility and auspiciousness. It can be traced back to at least 200 BC, with the oldest recorded owner being the Chinese emperor of Han Dynasty.",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/29",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "mythical"
+    }
+}
+

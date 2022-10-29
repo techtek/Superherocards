@@ -1,0 +1,11 @@
+{
+    "name": "Moon Dream",
+    "description": " A dream often have a forecastsing power! /“I dreamed I was sitting on my bed, with the blanked around me and the moon between my hands.../" ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/11",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "common"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Chip",
+    "description": "Don't be fooled, his cheek pouches can hold large amounts of goods. /“Chip, Chippp/" ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/7",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "common"
+    }
+}

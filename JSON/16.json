@@ -1,0 +1,11 @@
+{
+    "name": "Mammmoth",
+    "description": "Old big bad stomping beast tramples everything under its colossal feet.",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/16",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "rare"
+    }
+}

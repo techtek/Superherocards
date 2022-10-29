@@ -1,0 +1,11 @@
+{
+    "name": "Gnomae",
+    "description": "They are everywhere and always ready to help! /“AEee, AEee/" ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/8",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "common"
+    }
+}

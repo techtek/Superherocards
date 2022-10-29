@@ -1,0 +1,12 @@
+{
+    "name": "Night Witch",
+    "description": "Guarding the magical forest since forever, casting spells on anything in her path, to know what's going on, and cossip about it with her wicked sisters. ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/27",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "mythical"
+    }
+}
+

@@ -1,0 +1,11 @@
+{
+    "name": "Flyopz",
+    "description": " Come in swarms, their bodies build like a flying army tank. /“BZzz BZzz/" ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/10",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "common"
+    }
+}

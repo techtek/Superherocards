@@ -1,0 +1,11 @@
+{
+    "name": "Shaedow",
+    "description": "Materialized trough the portal as a  shimmering blue shadow, it’s full stature can only be seen when you look at him directly in his eyes. ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/12",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "common"
+    }
+}

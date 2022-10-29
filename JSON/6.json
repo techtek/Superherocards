@@ -1,0 +1,11 @@
+{
+    "name": "I-owl",
+    "description": "Enchanted by the Night Witch he patiently observes the forest and communicates back to its owner at clock strike twelve. ",
+    "media_type": "IMAGE",
+    "media_url": "ipfs://QmcvWmmUoLNjbPDNP9ij9jPdeo48ozNAuTLSjBhvkXzhtv/6",
+    "github_repo": "https://github.com/techtek/superherocards",
+	"traits": {
+		"collection": "Alpha Set",   
+        "rarity": "common"
+    }
+}
